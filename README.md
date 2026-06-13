@@ -2,6 +2,8 @@
 
 A premium, native Android application built with modern engineering practices, featuring an interactive glossary of kitchen utensils, structural anatomy visualizers, and an offline training quiz game.
 
+<img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="60" align="right" alt="Antigravity Logo" />
+
 > **🚀 Engineered with Antigravity 2.0**
 > This project was successfully developed, structured, and compiled with the autonomous assistance of the **Google Antigravity 2.0 AI Engineering Suite**, leveraging Review-driven development for high-fidelity code generation and architecture planning.
 
