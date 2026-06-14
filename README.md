@@ -1,11 +1,12 @@
 # 🍳 KitchenLexicon
 
-A premium, native Android application built with modern engineering practices, featuring an interactive glossary of kitchen utensils, structural anatomy visualizers, and an offline training quiz game.
+<p align="center">
+  <img src="assets/header.svg" alt="KitchenLexicon Header Banner" width="100%" />
+</p>
 
-<img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="60" align="right" alt="Antigravity Logo" />
-
-> **🚀 Engineered with Antigravity 2.0**
-> This project was successfully developed, structured, and compiled with the autonomous assistance of the **Google Antigravity 2.0 AI Engineering Suite**, leveraging Review-driven development for high-fidelity code generation and architecture planning.
+> [!IMPORTANT]
+> **Engineered with Antigravity 2.0**
+> This native Android app was developed, structured, and compiled with the assistance of the **Google Antigravity 2.0 AI Engineering Suite**, leveraging modern architecture design, reactive state management, and strict compilation validation.
 
 ---
 
@@ -58,56 +59,56 @@ A premium, native Android application built with modern engineering practices, f
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-*   **Material 3 Design:** A fully native, modern, responsive UI styled completely with Jetpack Compose (featuring Charcoal-Slate Dark and Warm-Cream Light themes).
-*   **Native Text-To-Speech (TTS):** Integration with the Android native `android.speech.tts.TextToSpeech` engine for flawless vocalizations of utensil terms.
-*   **Offline Sound Synthesis:** Uses the Android `ToneGenerator` API to synthesize winning chimes and game buzzer beeps dynamically—100% offline.
-*   **Custom Canvas Vector Icons:** Crisp, high-fidelity UI shapes rendered programmatically using Jetpack Compose Canvas draw paths (Chef's Knife, Whisk, Skillet).
-*   **Interactive Quiz Game:** State-managed multiple-choice game center with scoring streaks and real-time feedback loops.
+*   🎨 **Material 3 Design System**: Fully native, highly responsive UI styled with Jetpack Compose featuring Slate Dark and Warm Cream Light themes.
+*   🗣️ **Native Speech Engine**: Deep integration with the Android native `android.speech.tts.TextToSpeech` API for voice annotations.
+*   🎵 **Offline Audio Synthesis**: Dynamic sound effects generated at runtime utilizing the low-latency `ToneGenerator` audio API.
+*   🖋️ **Programmatic Vector Assets**: Scalable vector icons drawn via Jetpack Compose Canvas draw paths, avoiding traditional heavy bitmap payloads.
+*   🧠 **State-Driven Interactive Quiz**: Reactive game center with streak counting, performance score feedback, and state restoration loops.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Architecture & Specifications
 
-| Parameter | Specification |
+| Dimension | Specification Details |
 |---|---|
-| **Language** | Kotlin (100% Declarative) |
-| **UI Framework** | Jetpack Compose |
-| **Design System** | Material Design 3 |
-| **Build System** | Gradle (Kotlin DSL) |
-| **Minimum SDK** | API 26+ (Android 8.0 Oreo) |
-| **Target SDK** | API 36 (Android 16) |
+| **Language** | Kotlin (100% Declarative Compose syntax) |
+| **Framework** | Jetpack Compose for UI, StateFlow for state management |
+| **Design Style** | Material Design 3 (Dynamic Color adaptation) |
+| **Build Configuration** | Gradle Kotlin DSL (`build.gradle.kts`) |
+| **Target SDK** | Android 16 (API Level 36) |
+| **Min SDK** | Android 8.0 Oreo (API Level 26) |
 
 ---
 
-## 📦 Building and Installation
+## 📦 Compilation & Build Guide
 
-To compile and build the ready-to-install APK on an Arch-based Linux environment (like CachyOS):
+To build the project locally on an Arch-based Linux environment (such as CachyOS):
 
-### 1. Install Java Development Kit (JDK)
-Ensure you have the OpenJDK 17 or higher installed:
+### 1. Set Up Java Development Kit (JDK)
+Ensure OpenJDK 17 or higher is installed and active in your system path:
 ```bash
 sudo pacman -S jdk-openjdk
 ```
 
-### 2. Configure Android SDK
-Ensure your environment variables are pointing to the Android SDK directory:
+### 2. Configure Android Home Variables
+Map the path variables pointing to your local Android SDK location:
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 ```
 
-### 3. Compile the Application
-Using the Gradle wrapper (`gradlew`), clean the project and build the debug APK:
+### 3. Run the Gradle Assembler
+Using the Gradle wrapper (`gradlew`), execute the clean compilation sequence:
 ```bash
 ./gradlew clean assembleDebug
 ```
-The generated APK will be available under:
+The output APK file will be packaged in:
 `app/build/outputs/apk/debug/app-debug.apk`
 
 ---
 
 <p align="center">
-  <sub>Generated with precision. Engineered with <b>Google Antigravity</b>.</sub>
+  <sub>Generated with precision. Engineered with <b>Google Antigravity 2.0</b>.</sub>
 </p>
